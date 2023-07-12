@@ -9,7 +9,7 @@
         <Color x:Key="Tertiary">#705c2e</Color>
     </ContentPage.Resources>
 
-    <Grid x:Name="Container" BackgroundColor="Aqua">
+    <Grid x:Name="Container" BackgroundColor="Black">
         <Frame Margin="10,0,10,0" VerticalOptions="Center">
             <VerticalStackLayout Spacing="15" VerticalOptions="Center">
                 <Label FontAttributes="Bold"
