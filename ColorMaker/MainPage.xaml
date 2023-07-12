@@ -15,23 +15,23 @@
                 <Label FontAttributes="Bold"
                        FontSize="Large"
                        HorizontalTextAlignment="Center"
-                       Text="Color Maker"/>
+                       Text="Creador de colores"/>
 
-                <Label Text="Red Value: "></Label>
+                <Label Text="Rojo: "></Label>
                 <Slider x:Name="sldRed"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Tertiary}"
                         MinimumTrackColor="{StaticResource Secondary}"
                         ValueChanged="Slider_ValueChanged"/>
 
-                <Label Text="Green Value: "></Label>
+                <Label Text="Verde: "></Label>
                 <Slider x:Name="sldGreen"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Tertiary}"
                         MinimumTrackColor="{StaticResource Secondary}"
                         ValueChanged="Slider_ValueChanged"/>
 
-                <Label Text="Blue Value: "></Label>
+                <Label Text="Azul: "></Label>
                 <Slider x:Name="sldBlue"
                         ThumbColor="{StaticResource Primary}"
                         MaximumTrackColor="{StaticResource Tertiary}"
@@ -55,7 +55,7 @@
 
                 <Button x:Name="btnRandom"
                         BackgroundColor="{StaticResource Primary}"
-                        Text="Generate Random Color"
+                        Text="Generar color aleatorio"
                         Clicked="btnRandom_Clicked"/>
             </VerticalStackLayout>
         </Frame>
